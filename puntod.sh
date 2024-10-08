@@ -1,5 +1,1 @@
-mkdir Estructura_Asimetrica
-cd Estructura_Asimetrica
-mkdir correo clientes
-touch correo/cartas_{1..100} clientes/cartas_{1..100}
-touch correo/carteros_{1..10}
+sudo mkdir -p Estructura_Asimetrica/{{correo,clientes}/cartas_{1..100},correo/carteros_{1..10}}
