@@ -14,6 +14,7 @@ sudo chmod -R u=rwx,g=rw,o= Examenes-UTN/alumno_2
 sudo chmod -R u=rwx,g=,o= Examenes-UTN/alumno_3
 sudo chmod -R u=rwx,g=rwx,o=rx Examenes-UTN/profesores
 
+cd parcial1/
 
 sudo -u developer bash -c "whoami > validar.txt"
 sudo -u tester bash -c "whoami >> validar.txt"
